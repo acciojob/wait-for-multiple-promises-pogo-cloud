@@ -20,7 +20,7 @@ let table=document.querySelector(".table");
       });
       let tbody=document.querySelector("#output");
       tbody.innerHTML=`
-      <tr >
+      <tr id="loading">
         <td colspan="2">Loading...</td>
       </tr>
       `
